@@ -4,7 +4,7 @@
 
 	<groupId>br.com.caelum.vraptor</groupId>
 	<artifactId>vraptor-sequence-validator</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>vraptor-sequence-validator</name>
@@ -13,6 +13,20 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</connection>
+		<url>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</url>
+		<developerConnection>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</developerConnection>
+	</scm>
 
 	<build>
 		<plugins>
@@ -25,6 +39,10 @@
 					<target>1.6</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
