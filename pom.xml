@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.caelum.vraptor</groupId>
 	<artifactId>vraptor-sequence-validator</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>vraptor-sequence-validator</name>
@@ -22,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</connection>
-		<url>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</url>
-		<developerConnection>scm:git:git://github.com/felipepedrini/vraptor-sequence-validator.git</developerConnection>
+		<connection>scm:git:git@github.com:felipepedrini/vraptor-sequence-validator.git</connection>
+		<url>scm:git:git@github.com:felipepedrini/vraptor-sequence-validator.git</url>
+		<developerConnection>scm:git:git@github.com:felipepedrini/vraptor-sequence-validator.git</developerConnection>
 	</scm>
 
 	<build>
