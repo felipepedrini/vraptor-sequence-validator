@@ -9,7 +9,7 @@ import java.util.List;
  * @author Felipe Pedrini
  * 
  */
-public interface SequenceBeanValidator extends BeanValidator {
+public interface SequenceBeanValidator {
 
 	/**
 	 * Validates an object using marker interfaces classes as groups.

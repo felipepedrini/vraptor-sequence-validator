@@ -45,10 +45,6 @@ public class JSR303SequenceValidator implements SequenceBeanValidator {
 		this.interpolator = interpolator;
 	}
 
-	public List<Message> validate(Object bean) {
-		return validate(bean);
-	}
-
 	public List<Message> validate(Object bean, Class<?>... groups) {
 		if (bean == null) {
 			logger.warn("skiping validation, input bean is null.");
